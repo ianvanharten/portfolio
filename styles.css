@@ -38,7 +38,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 a {
@@ -57,9 +57,6 @@ nav {
 main {
   margin: 50px;
   color: var(--off-white);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 main h1 {
@@ -93,7 +90,9 @@ main h1 {
   margin: 0 10px;
 }
 
-.tech-images {
+.tech-images,
+.comic-images,
+.podcast-image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,6 +103,42 @@ main h1 {
   width: 80px;
   height: auto;
   margin: 10px 20px;
+}
+
+.comic-images img {
+  width: 110px;
+  height: auto;
+}
+
+.podcast-image img {
+  width: 150px;
+  height: auto;
+  margin: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.card .email {
+  margin: 10px auto 30px auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.social-links div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-links div p {
+  margin: 5px 30px;
+}
+
+.social-links img {
+  width: 50px;
 }
 
 /* Footer */
