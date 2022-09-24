@@ -28,9 +28,7 @@ body {
 }
 
 h1 {
-  font-size: 3em;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 2.5em;
 }
 
 h2 {
@@ -57,11 +55,36 @@ nav {
 nav a {
   margin: 0 25px;
   text-decoration: none;
-  font-size: 1.25em;
+  font-size: 1.3em;
 }
 
 nav a:hover {
   color: var(--light-orange);
+}
+
+.site-title {
+  font-size: 1em;
+}
+
+/* Header */
+
+header {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header div {
+  margin: 0 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+header img {
+  margin: 0 40px;
+  width: 300px;
+  height: auto;
 }
 
 /* Main Content */
@@ -133,6 +156,8 @@ main h1 {
   height: auto;
   margin: 20px;
 }
+
+/* Contact Section */
 
 .social-links {
   width: 70%;
