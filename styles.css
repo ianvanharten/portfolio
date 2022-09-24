@@ -135,8 +135,10 @@ main h1 {
 }
 
 .social-links {
+  width: 70%;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .card .email {
@@ -145,7 +147,7 @@ main h1 {
   font-weight: bold;
 }
 
-.social-links div {
+.social-links a {
   display: flex;
   flex-direction: column;
   align-items: center;
