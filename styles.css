@@ -193,3 +193,77 @@ footer {
   margin: 20px auto;
   text-align: center;
 }
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+  nav {
+    flex-direction: column;
+  }
+
+  header div {
+    margin: 0 10px;
+    font-size: 28px;
+  }
+
+  header img {
+    margin: 0 10px;
+    width: 250px;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 750px) {
+  nav {
+    margin: 10px;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+  header {
+    margin: 20px;
+    flex-direction: column-reverse;
+  }
+
+  header div {
+    margin: 0;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  header img {
+    margin: 15px 0;
+    width: 160px;
+  }
+
+  main {
+    margin: 10px;
+  }
+
+  .card {
+    margin: 25px auto 65px auto;
+    padding: 15px;
+    width: 90%;
+    box-shadow: none;
+  }
+
+  .social-links {
+    flex-direction: column;
+  }
+
+  .social-links div {
+    margin: 15px auto;
+  }
+
+  .card .email {
+    font-size: 0.9em;
+    font-weight: normal;
+    margin: 10px auto;
+  }
+}
