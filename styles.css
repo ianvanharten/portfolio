@@ -194,6 +194,26 @@ footer {
   text-align: center;
 }
 
+/* Animation */
+
+.spaceshipInpho {
+  animation: spaceshipInpho 4s infinite ease;
+}
+
+@keyframes spaceshipInpho {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-50px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 /* Responsive */
 
 @media (max-width: 1000px) {
@@ -224,6 +244,7 @@ footer {
 
   nav a {
     margin: 0 10px;
+    font-size: 1.1em;
   }
 
   header {
